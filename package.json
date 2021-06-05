@@ -1,27 +1,28 @@
 {
-    "name": "fitness_tracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js",
-      "seed": "node seeders/seed.js"
-    },
-    "author": "Thalia De Mattos",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^5.10.11",
-      "morgan": "^1.9.1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/magikarppe/Fitness-Tracker"
-    },
-    "bugs": {
-      "url": "https://github.com/magikarppe/Fitness-Tracker/issues"
-    },
-    "homepage": "https://github.com/magikarppe/Fitness-Tracker/blob/master/README.md"
-  }
+  "name": "fitness_tracker",
+  "version": "1.0.0",
+  "description": "The fitness tracker is made to assist users to track daily workouts and exercises. The user is able to input the name, type, weight, sets, reps, and duration of exercises. After the workout, the app will show the user all the progress they have made and their stats.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "Thalia De Mattos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magikarppe/Fitness-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magikarppe/Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/magikarppe/Fitness-Tracker/blob/master/README.md",
+  "devDependencies": {}
+}
