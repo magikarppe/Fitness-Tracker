@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/workout',
+  process.env.MONGODB_URI || 'mongodb://localhost/Fitness-Tracker',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -17,6 +17,8 @@ mongoose.connect(
     useFindAndModify: false
   }
 );
+
+
 
 // routes
 app.use(require("./routes/api.js"));
