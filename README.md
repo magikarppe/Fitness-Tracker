@@ -30,4 +30,4 @@ View the live application [here](https://still-spire-34436.herokuapp.com/).
   npm test
 
   ## Questions
-  If you have any questions about this project, feel free to contact me directly at amfm0793@gmail.com or simply open an issue. To see more of my work, visit my GitHub profile at [magikarppe](https://github.com/magikarppe/).
+  If you have any questions about this project, feel free to contact me directly at tgdmattos@gmail.com or simply open an issue. To see more of my work, visit my GitHub profile at [magikarppe](https://github.com/magikarppe/).
