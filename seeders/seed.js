@@ -9,7 +9,7 @@ mongoose.connect("mongodb://localhost/Fitness-Tracker", {
 
 let workoutSeed = [
   {
-    day: new Date(new Date ().setDate(new Date().getDate() - 9),
+    day: new Date(new Date ().setDate(new Date().getDate() - 9)),
     exercises: [
       {
         type: "resistance",
@@ -22,7 +22,7 @@ let workoutSeed = [
     ]
   },
   {
-    day: new Date(new Date().setDate(new Date().getDate() - 8),
+    day: new Date(new Date().setDate(new Date().getDate() - 8)),
     exercises: [
       {
         type: "resistance",
