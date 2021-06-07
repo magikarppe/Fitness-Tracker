@@ -13,7 +13,11 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect('mongodb://localhost/Fitness-Tracker', {
+
+console.log('====================')
+console.log(process.env.MONGODB_URI)
+console.log('====================')
+mongoose.connect('mongodb://localhost/workout', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
